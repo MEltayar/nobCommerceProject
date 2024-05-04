@@ -1,0 +1,9 @@
+
+    <suite name = "User Register">
+        <test name = "Verify that user can register successfully">
+            <classes>
+                <class name = "tests.RegisterTest">
+                </class>
+            </classes>
+        </test>
+    </suite>

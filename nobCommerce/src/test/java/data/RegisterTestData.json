@@ -1,0 +1,13 @@
+{
+  "firstName": "Mostafa",
+  "lastName": "Mohamed",
+  "dayOfBirth": "21",
+  "monthOfBirth":"July",
+  "yearOfBirth": "1998",
+  "Email": "Moosstafaa@gmail.com",
+  "companyName": "Systems",
+  "Password": "T123456@",
+  "confirmPassword": "T123456@",
+  "Gender": "Male"
+
+}
