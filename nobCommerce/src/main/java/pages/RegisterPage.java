@@ -1,5 +1,6 @@
 package pages;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -39,6 +40,7 @@ public class RegisterPage extends PageBase{
         }
     }
     //method to register user with data driven
+    @Step("Fill all register fields")
     public void userRegister(String Gender, String First_Name,String Last_Name,String Day_Of_Birth, String Month_Of_Birth, String Year_Of_Birth,String email,String Company_Name
                             ,String password,String Confirm_Password)
     {
