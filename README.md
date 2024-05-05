@@ -14,7 +14,8 @@ Page Object Model (POM) design pattern,
 Data Driven framework
 
 📄 Allure Report:
-![image](https://github.com/MEltayar/nobCommerceProject/assets/152815622/928d7221-3419-4cdc-8210-5bdd38b7134c)
+![image](https://github.com/MEltayar/nobCommerceProject/assets/152815622/8cf02087-391a-4ae6-bb5a-7d72ba15706a)
+
 
 🔍️ Covered Test cases in this project :
 Register User,
