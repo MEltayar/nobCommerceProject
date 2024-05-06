@@ -14,7 +14,6 @@ public class RegisterPage extends PageBase{
         super(driver);
     }
     Select select;
-    Utils.JsonFileManager readData = new Utils.JsonFileManager("src/test/java/data/RegisterTestData.json");
 
     public By maleGender = By.id("gender-male");
     public By femaleGender = By.id("gender-female");
@@ -31,7 +30,6 @@ public class RegisterPage extends PageBase{
 
     //method to select gender
     public void selectGender(String gender){
-        gender = readData.getTestData("Gender");
         if(gender.equals("Male")) {
             Utils.clickButton(driver,maleGender);
         } else if (gender.equals("Female")) {
@@ -40,7 +38,7 @@ public class RegisterPage extends PageBase{
         }
     }
     //method to register user with data driven
-    @Step("Fill all register fields")
+    @Step("Fill all register fields then click Register")
     public void userRegister(String Gender, String First_Name,String Last_Name,String Day_Of_Birth, String Month_Of_Birth, String Year_Of_Birth,String email,String Company_Name
                             ,String password,String Confirm_Password)
     {

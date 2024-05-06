@@ -7,9 +7,6 @@ import org.openqa.selenium.support.ui.Select;
 import java.io.FileReader;
 import java.io.FileNotFoundException;
 import io.restassured.path.json.JsonPath;
-
-
-
 public class Utils extends PageBase {
 
     public Utils(WebDriver driver) {

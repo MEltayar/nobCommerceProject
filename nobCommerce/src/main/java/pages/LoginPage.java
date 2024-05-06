@@ -13,7 +13,7 @@ public class LoginPage extends PageBase{
     By Password = By.id("Password");
     By loginButton = By.xpath("//button[@class='button-1 login-button']");
 
-    @Step("Enter the login credentials")
+    @Step("Enter the login credentials then click Login")
     public void  loginCredentials(String email, String password){
         Utils.setText(driver,Email,email);
         Utils.setText(driver,Password,password);
